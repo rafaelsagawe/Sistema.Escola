@@ -11,12 +11,14 @@ namespace Sistema.Escola
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
+        /// As janelas ou Fromularios tem o prefixo Frm_
+        /// As janelas são centralizadas
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Frm_splash());
         }
     }
 }
